@@ -1,0 +1,20 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+html, body {
+min-height: 100%; /* you Already have this */
+height: 100%; /* Add this */
+ }
+/* No need of */
+.wrapper {
+    height: auto !important;
+    height: 100%;
+}
+/* Add this css */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
