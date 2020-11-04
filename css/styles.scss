@@ -6,8 +6,8 @@ html, body {
   min-height: 100%; /* you Already have this */
   height: 100%;
   font-family: 'Headland One', serif;
-  color: #19171a;
-  background-image:url('../images/bg2.jpg');
+  color: #ebe8e7;
+  background-image:url('../images/bg2.2.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -50,7 +50,7 @@ button {
   font-family: 'Headland One', serif;
   border: 0;
   background: rgba(150,150,150,0.6);
-  font-style: #19171a;
+  color: #19171a;
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
@@ -60,7 +60,7 @@ button {
 
 .thumb-bar img {
   display: block;
-  opacity: 0.8;
+  opacity: 0.7;
   width: 20%;
   float: left;
   cursor: pointer;
