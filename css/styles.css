@@ -5,16 +5,60 @@ html, body {
   min-height: 100%;
   /* you Already have this */
   height: 100%;
+  font-family: 'Headland One', serif;
+  color: #19171a;
+  background-image: url("../images/bg2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   /* Add this */ }
 
-/* No need of */
-.wrapper {
-  height: auto !important;
-  height: 100%; }
-
 /* Add this css */
+h1 {
+  text-align: center; }
+
 .footer {
+  font-family: 'Headland One', serif;
+  color: #413f3d;
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%; }
+
+.full-img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 500px;
+  height: 500px; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0); }
+
+button {
+  font-family: 'Headland One', serif;
+  border: 0;
+  background: rgba(150, 150, 150, 0.6);
+  font-style: #19171a;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px; }
+
+.thumb-bar img {
+  display: block;
+  opacity: 0.8;
+  width: 20%;
+  float: left;
+  cursor: pointer; }
+
+.thumb-bar img:hover {
+  opacity: 1; }
