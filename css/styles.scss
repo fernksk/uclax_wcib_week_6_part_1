@@ -30,11 +30,12 @@ h1{
 
 .full-img {
   position: relative;
-  left: 50%;
+  left: 30%;
   transform: translateX(-50%);
   display: block;
   width: 500px;
   height: 500px;
+  border: 8px solid #ebe8e7;
 }
 
 .overlay {
@@ -64,6 +65,11 @@ button {
   width: 20%;
   float: left;
   cursor: pointer;
+}
+
+.b {
+  -ms-transform: skewY(5deg); /* IE 9 */
+  transform: skewY(5deg);
 }
 
 .thumb-bar img:hover {
